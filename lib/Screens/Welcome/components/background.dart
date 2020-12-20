@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:one_day/Screens/Welcome/components/product.dart';
 import 'package:one_day/Screens/Welcome/components/product_list.dart';
+import 'package:one_day/Screens/details/details_screen.dart';
 
 class Background extends StatefulWidget {
   final Widget child;
@@ -115,8 +116,14 @@ class _BackgroundState extends State<Background> {
                     crossAxisSpacing: 20,
                     childAspectRatio: 0.75,
                   ),
-                  itemBuilder: (context, index) =>
-                      ProductCard(product: products[index]),
+                  itemBuilder: (context, index) => ProductCard(
+                      product: products[index],
+                      press: () => Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => DetailScreen(
+                                    product: products[index],
+                                  )))),
                 )),
           )
         ],
