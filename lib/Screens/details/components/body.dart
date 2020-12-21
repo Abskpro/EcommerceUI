@@ -20,11 +20,11 @@ class Body extends StatelessWidget {
               child: Stack(
                 children: [
                   Container(
-                    margin: EdgeInsets.only(top: size.height * 0.3),
+                    margin: EdgeInsets.only(top: size.height * 0.37),
                     padding: EdgeInsets.only(
                         top: size.height * 0.12, left: 20.0, right: 20.0),
                     decoration: BoxDecoration(
-                      color: Colors.blue,
+                      color: Colors.white,
                       borderRadius: BorderRadius.only(
                         topLeft: Radius.circular(24),
                         topRight: Radius.circular(24),

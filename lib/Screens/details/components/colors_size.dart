@@ -12,7 +12,6 @@ class ColorsAndSize extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Row(
-      mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
         Expanded(
             child: Column(
@@ -32,18 +31,19 @@ class ColorsAndSize extends StatelessWidget {
           ],
         )),
         Expanded(
+            flex: -3,
             child: RichText(
-          text: TextSpan(children: [
-            TextSpan(text: "Size\n"),
-            TextSpan(
-              text: "${product.size}cm",
-              style: Theme.of(context)
-                  .textTheme
-                  .headline5
-                  .copyWith(fontWeight: FontWeight.bold),
-            )
-          ]),
-        ))
+              text: TextSpan(children: [
+                TextSpan(text: "Size\n"),
+                TextSpan(
+                  text: "${product.size}cm",
+                  style: Theme.of(context)
+                      .textTheme
+                      .headline5
+                      .copyWith(fontWeight: FontWeight.bold),
+                )
+              ]),
+            ))
       ],
     );
   }
