@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:one_day/Screens/Welcome/components/product_list.dart';
+// import 'package:one_day/Screens/Welcome/components/product_list.dart';
+import 'package:one_day/model/product.dart';
 
 class Description extends StatelessWidget {
   final Product product;

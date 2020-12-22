@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:one_day/Screens/Welcome/components/product_list.dart';
+// import 'package:one_day/Screens/Welcome/components/product_list.dart';
+import 'package:one_day/model/product.dart';
 
 class ProductCard extends StatelessWidget {
   final Product product;
@@ -21,7 +22,7 @@ class ProductCard extends StatelessWidget {
             child: Container(
                 padding: EdgeInsets.all(20.0),
                 decoration: BoxDecoration(
-                    color: product.color,
+                    color: Color(int.parse(product.color)),
                     borderRadius: BorderRadius.circular(16)),
                 child: Hero(
                   tag: "${product.id}",

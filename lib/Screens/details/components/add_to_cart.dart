@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:one_day/Screens/Welcome/components/product_list.dart';
+// import 'package:one_day/Screens/Welcome/components/product_list.dart';
+import 'package:one_day/model/product.dart';
 
 class AddToCart extends StatelessWidget {
   final Product product;
@@ -13,15 +14,6 @@ class AddToCart extends StatelessWidget {
         padding: const EdgeInsets.symmetric(vertical: 20),
         child: Row(
           children: [
-            // Container(
-            //   margin: EdgeInsets.only(right: 20),
-            //   height: 50,
-            //   width: 58,
-            //   decoration: BoxDecoration(
-            //     borderRadius: BorderRadius.circular(18),
-            //     border: Border.all(color: product.color),
-            //   ),
-            // ),
             Expanded(
                 child: SizedBox(
               height: 50,
@@ -29,14 +21,14 @@ class AddToCart extends StatelessWidget {
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(18),
                 ),
-                color: product.color,
+                color: Color(int.parse(product.color)),
                 onPressed: () {},
                 child: Text(
                   "Buy Now".toUpperCase(),
                   style: TextStyle(
                     fontSize: 17,
                     fontWeight: FontWeight.bold,
-                    color: Colors.black,
+                    color: Colors.white,
                   ),
                 ),
               ),

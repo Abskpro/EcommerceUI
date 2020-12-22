@@ -23,18 +23,34 @@ class _CategoriesScrollState extends State<CategoriesScroll> {
   }
 
   Widget buildCategory(int index) {
-    child:
-    Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 20),
-        child: Column(
-          children: [
-            Text(
-              categories[index],
-              style: TextStyle(
-                fontWeight: FontWeight.bold,
+    return GestureDetector(
+      onTap: () {
+        setState(() {
+          selectedIndex = index;
+        });
+      },
+      child: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 20),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text(
+                categories[index],
+                style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    color: selectedIndex == index
+                        ? Color(0xFF535353)
+                        : Color(0xFFACACAC)),
               ),
-            ),
-          ],
-        ));
+              Container(
+                  margin: EdgeInsets.only(top: 20 / 4),
+                  height: 2,
+                  width: 30,
+                  color: selectedIndex == index
+                      ? Colors.black
+                      : Colors.transparent)
+            ],
+          )),
+    );
   }
 }

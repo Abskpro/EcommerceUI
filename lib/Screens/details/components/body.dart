@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:one_day/Screens/Welcome/components/product_list.dart';
+import 'package:one_day/model/product.dart';
 import 'package:one_day/Screens/details/components/add_to_cart.dart';
 import 'package:one_day/Screens/details/components/product_title_iamge.dart';
 import 'package:one_day/Screens/details/components/colors_size.dart';

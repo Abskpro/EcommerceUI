@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:one_day/Screens/Welcome/components/product_list.dart';
+// import 'package:one_day/Screens/Welcome/components/product_list.dart';
+import 'package:one_day/model/product.dart';
 
 class ColorsAndSize extends StatelessWidget {
   final Product product;
@@ -34,12 +35,15 @@ class ColorsAndSize extends StatelessWidget {
             flex: -3,
             child: RichText(
               text: TextSpan(children: [
-                TextSpan(text: "Size\n"),
+                TextSpan(
+                  text: "Size\n",
+                  style: TextStyle(color: Colors.black),
+                ),
                 TextSpan(
                   text: "${product.size}cm",
                   style: Theme.of(context)
                       .textTheme
-                      .headline5
+                      .headline6
                       .copyWith(fontWeight: FontWeight.bold),
                 )
               ]),
