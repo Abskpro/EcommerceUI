@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:one_day/bloc/categories_bloc.dart';
+import 'package:one_day/cubit/categories_cubit.dart';
 
 class CategoriesScroll extends StatefulWidget {
   @override
@@ -25,6 +28,7 @@ class _CategoriesScrollState extends State<CategoriesScroll> {
   Widget buildCategory(int index) {
     return GestureDetector(
       onTap: () {
+        context.read<CategoriesCubit>().change(index);
         setState(() {
           selectedIndex = index;
         });

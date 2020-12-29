@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "title": "Shirt",
+        "price": 199,
+        "size": 12,
+        "description":
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "image": "assets/images/shirt-removebg-preview.png",
+        "color": "0xFF3D82AE"
+    },
+    {
+        "id": 2,
+        "title": "Shirt",
+        "price": 222,
+        "size": 12,
+        "description":
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "image": "assets/images/shirt-removebg-preview.png",
+        "color": "0xFFD3A984"
+    },
+    {
+        "id": 3,
+        "title": "Shirt",
+        "price": 199,
+        "size": 12,
+        "description":
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "image": "assets/images/shirt-removebg-preview.png",
+        "color": "0xFF989493"
+    },
+    {
+        "id": 4,
+        "title": "Shirt",
+        "price": 222,
+        "size": 12,
+        "description":
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "image": "assets/images/shirt-removebg-preview.png",
+        "color": "0xFFE6B398"
+    },
+    {
+        "id": 5,
+        "title": "Shirt",
+        "price": 199,
+        "size": 12,
+        "description":
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "image": "assets/images/shirt-removebg-preview.png",
+        "color": "0xFFFB7883"
+    },
+    {
+        "id": 6,
+        "title": "Shirt",
+        "price": 222,
+        "size": 12,
+        "description":
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "image": "assets/images/shirt-removebg-preview.png",
+        "color": "0xFFAEAEAE"
+    }
+]
