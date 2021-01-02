@@ -6,3 +6,4 @@ Ecommerce ui
 
 ![screenshot](./screenshot/home.jpg);
 ![screenshot](./screenshot/detail.jpg);
+![screenshot](./screenshot/categories.JPG);
